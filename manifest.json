@@ -20,6 +20,8 @@
     "vtex.store-graphql": "2.x",
     "vtex.store-components": "3.x",
     "vtex.product-summary": "2.x",
-    "vtex.styleguide": "9.x"
+    "vtex.styleguide": "9.x",
+    "vtex.slider": "0.x",
+    "vtex.dreamstore-icons": "0.x"
   }
 }
