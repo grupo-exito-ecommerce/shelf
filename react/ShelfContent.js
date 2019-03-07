@@ -28,7 +28,7 @@ class ShelfContent extends Component {
   };
 
   arrowRender = ({ orientation, onClick }) => {
-    const rootClasses = classnames('dib absolute', shelf.arrow, {
+    const rootClasses = classnames('dib absolute z-1 pointer', shelf.arrow, {
       'left-0': orientation === 'left',
       'right-0': orientation === 'right'
     })
@@ -56,7 +56,7 @@ class ShelfContent extends Component {
     }
 
     return (
-      <div className="vtex-shelf__content flex justify-content">
+      <div className="vtex-shelf__content flex justify-center">
         <SliderContainer className="w-100 mw9 pv5">
           <Slider
             perPage={perPage}
